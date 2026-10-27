@@ -1,0 +1,74 @@
+[
+  {
+    "test_index": 0,
+    "true_label": "cat",
+    "predicted_label": "cat",
+    "correct": true
+  },
+  {
+    "test_index": 2,
+    "true_label": "ship",
+    "predicted_label": "ship",
+    "correct": true
+  },
+  {
+    "test_index": 4,
+    "true_label": "frog",
+    "predicted_label": "frog",
+    "correct": true
+  },
+  {
+    "test_index": 5,
+    "true_label": "frog",
+    "predicted_label": "frog",
+    "correct": true
+  },
+  {
+    "test_index": 6,
+    "true_label": "automobile",
+    "predicted_label": "automobile",
+    "correct": true
+  },
+  {
+    "test_index": 7,
+    "true_label": "frog",
+    "predicted_label": "frog",
+    "correct": true
+  },
+  {
+    "test_index": 1,
+    "true_label": "ship",
+    "predicted_label": "automobile",
+    "correct": false
+  },
+  {
+    "test_index": 3,
+    "true_label": "airplane",
+    "predicted_label": "ship",
+    "correct": false
+  },
+  {
+    "test_index": 22,
+    "true_label": "deer",
+    "predicted_label": "airplane",
+    "correct": false
+  },
+  {
+    "test_index": 24,
+    "true_label": "dog",
+    "predicted_label": "deer",
+    "correct": false
+  },
+  {
+    "test_index": 25,
+    "true_label": "bird",
+    "predicted_label": "frog",
+    "correct": false
+  },
+  {
+    "test_index": 27,
+    "true_label": "airplane",
+    "predicted_label": "deer",
+    "correct": false
+  }
+]

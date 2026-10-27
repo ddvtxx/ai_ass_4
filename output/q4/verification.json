@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "model": "baseline",
+      "checkpoint_reload_verified": true,
+      "predictions_match_all_10000_rows": true,
+      "correct_predictions": 5871
+    },
+    {
+      "model": "wider_conv2",
+      "checkpoint_reload_verified": true,
+      "predictions_match_all_10000_rows": true,
+      "correct_predictions": 5820
+    }
+  ],
+  "training_subset_unique_count": 10000,
+  "history_epochs_per_model": 12,
+  "training_code_sha256": "5c5b70d179db33e50dc0f50e57f685b14eded2399fd367db74b144e053139f37"
+}

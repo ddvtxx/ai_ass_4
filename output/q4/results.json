@@ -1,0 +1,38 @@
+[
+  {
+    "model": "baseline",
+    "conv2_channels": 32,
+    "parameters": 136874,
+    "train": {
+      "loss": 0.8764392406463622,
+      "accuracy": 0.694599986076355,
+      "correct": 6946,
+      "count": 10000
+    },
+    "test": {
+      "loss": 1.1733692758560181,
+      "accuracy": 0.5871000289916992,
+      "correct": 5871,
+      "count": 10000
+    },
+    "total_seconds": 24.515974400099367
+  },
+  {
+    "model": "wider_conv2",
+    "conv2_channels": 64,
+    "parameters": 272586,
+    "train": {
+      "loss": 0.8390641886711121,
+      "accuracy": 0.7055000066757202,
+      "correct": 7055,
+      "count": 10000
+    },
+    "test": {
+      "loss": 1.2012745342254638,
+      "accuracy": 0.5820000171661377,
+      "correct": 5820,
+      "count": 10000
+    },
+    "total_seconds": 34.05400269990787
+  }
+]

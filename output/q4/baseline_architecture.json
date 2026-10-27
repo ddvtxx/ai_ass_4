@@ -1,0 +1,94 @@
+[
+  {
+    "layer": "conv1",
+    "output_shape": [
+      1,
+      16,
+      32,
+      32
+    ],
+    "parameters": 448
+  },
+  {
+    "layer": "relu",
+    "output_shape": [
+      1,
+      16,
+      32,
+      32
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "pool",
+    "output_shape": [
+      1,
+      16,
+      16,
+      16
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "conv2",
+    "output_shape": [
+      1,
+      32,
+      16,
+      16
+    ],
+    "parameters": 4640
+  },
+  {
+    "layer": "relu",
+    "output_shape": [
+      1,
+      32,
+      16,
+      16
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "pool",
+    "output_shape": [
+      1,
+      32,
+      8,
+      8
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "flatten",
+    "output_shape": [
+      1,
+      2048
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "fc1",
+    "output_shape": [
+      1,
+      64
+    ],
+    "parameters": 131136
+  },
+  {
+    "layer": "relu",
+    "output_shape": [
+      1,
+      64
+    ],
+    "parameters": 0
+  },
+  {
+    "layer": "fc2",
+    "output_shape": [
+      1,
+      10
+    ],
+    "parameters": 650
+  }
+]
